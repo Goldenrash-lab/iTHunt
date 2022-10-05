@@ -41,12 +41,14 @@ $(function () {
     // console.log(1)
     $('.profile__main-work__content-eduhidden').toggleClass('profile__main-work__content-eduhidden--active')
   })
-
+  let val1 = +$('#amount1').text()
+  let val2 = +$('#amount2').text()
+  console.log(val1)
   $('#slider-range').slider({
     range: true,
-    min: 43,
-    max: 68,
-    values: [43, 68],
+    min: val1,
+    max: val2,
+    values: [val1, val2],
     slide: function (event, ui) {
       $('#amount1').text('€' + ui.values[0] + 'K')
       $('#amount2').text('€' + ui.values[1] + 'K')
