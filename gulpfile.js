@@ -50,13 +50,22 @@ function styles() {
     .pipe(browserSync.stream())
 }
 function css() {
-  return src(['node_modules/normalize.css/normalize.css', 'node_modules/slick-carousel/slick/slick.css'])
+  return src([
+    'node_modules/normalize.css/normalize.css',
+    'node_modules/slick-carousel/slick/slick.css',
+    'node_modules/air-datepicker/air-datepicker.css',
+  ])
     .pipe(concat('_libs.scss'))
     .pipe(dest('app/scss'))
     .pipe(browserSync.reload({ stream: true }))
 }
 function scripts() {
-  return src(['node_modules/jquery/dist/jquery.js', 'node_modules/slick-carousel/slick/slick.js', 'app/js/main.js'])
+  return src([
+    'node_modules/jquery/dist/jquery.js',
+    'node_modules/slick-carousel/slick/slick.js',
+    'node_modules/air-datepicker/air-datepicker.js',
+    'app/js/main.js',
+  ])
     .pipe(concat('main.min.js'))
     .pipe(uglify())
     .pipe(dest('app/js'))
