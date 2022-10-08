@@ -400,6 +400,22 @@
   .profile__main-skill {
     padding: 9px 11px;
   }
+  .card-tab .card-tabs__work__content-title {
+    font-size: 16px;
+    line-height: 8px;
+  }
+  .card-tab .card-tabs__work__content-text {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .card-tab .card-tabs__work__content-right__text {
+    font-size: 12px;
+    line-height: 11px;
+  }
+  .card-tab .card-tabs__work__content-right__link {
+    font-size: 14px;
+    line-height: 13px;
+  }
 }
 @media (max-width: 552px) {
   .profile__main-workbtn {
@@ -438,6 +454,7 @@
       }
     }
   }
+
   .search-form {
     flex-direction: row-reverse;
     &__btn {
@@ -451,6 +468,9 @@
       padding: 22px 9px;
       cursor: pointer;
     }
+  }
+  .card-tab .card-tabs__link {
+    font-size: 17px;
   }
 }
 @media (max-width: 520px) {
@@ -501,6 +521,9 @@
   .relations__item-text {
     font-size: 13px;
   }
+  .card-tabs__left-list__item-skillbox {
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 505px) {
   .cards__inner {
@@ -543,6 +566,48 @@
     top: -8px;
     right: 9%;
   }
+  .card-tabs__right-box__title {
+    padding: 31px 65px;
+    font-size: 22px;
+    line-height: 3px;
+  }
+  .air-datepicker-nav--title {
+    font-size: 15px;
+    line-height: 14px;
+    margin-bottom: 20px;
+    color: #747473;
+  }
+  .card-tabs__timepicker-title {
+    font-size: 15px;
+    line-height: 21px;
+    margin-bottom: 42px;
+  }
+  .card-tabs__timepicker-list__item,
+  .card-tabs__timepicker-list__item.active {
+    font-size: 12px;
+    line-height: 4px;
+  }
+  .air-datepicker-body--cells.-days- {
+    gap: 4px;
+  }
+  .card-tabs__right-box__btn {
+    padding: 21px 76px;
+    font-size: 19px;
+    line-height: 13px;
+    max-width: 286px;
+  }
+  .air-datepicker-body--day-names {
+    gap: 4px;
+  }
+  .links {
+    margin-bottom: 20px;
+  }
+  .card-tabs__top {
+    margin-bottom: 50px;
+  }
+  .card-tab .card-tabs__work__content {
+    margin-bottom: 50px;
+  }
 }
 @media (max-width: 495px) {
   .tabs {
@@ -562,6 +627,12 @@
   }
   .profile__header-info {
     gap: 13px;
+  }
+  .card-tab .card-tabs {
+    margin-bottom: 15px;
+  }
+  .card-tabs__left-list__item-title {
+    margin-bottom: 5px;
   }
 }
 @media (max-width: 486px) {
@@ -585,6 +656,14 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+@media (max-width: 485px) {
+  .card-tab .card-tabs__work__content-img {
+    margin-right: 5px;
+  }
+  .card-tab .card-tabs__work__content-left {
+    padding: 26px 10px;
   }
 }
 @media (max-width: 478px) {
@@ -704,6 +783,41 @@
   }
   .header__search {
     width: 251px;
+  }
+}
+@media (max-width: 415px) {
+  .card-tabs__left-info__text {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  .card-tabs__left-list__item-title {
+    font-size: 18px;
+    line-height: 8px;
+  }
+  .card-tabs__left-list__item-skill {
+    font-size: 12px;
+    line-height: 10px;
+  }
+  .card-tabs__right-box__datetime {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-tabs__timepicker-title {
+    margin-bottom: 8px;
+  }
+  .card-tabs__timepicker-list {
+    gap: 8px;
+    margin-bottom: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .card-tabs__right-box__title {
+    padding: 31px 9px;
+    font-size: 20px;
+  }
+  .card-tabs__timepicker-title {
+    display: flex;
+    justify-content: center;
   }
 }
 @media (max-width: 409px) {
@@ -869,6 +983,34 @@
     width: 71%;
     padding: 2px 0px;
     margin-right: 5px;
+  }
+  .card-tab .card-tabs__link {
+    margin-right: 30px;
+  }
+  .card-tab .card-tabs__work__content-right__text {
+    margin-right: 5px;
+  }
+  .card-tab .card-tabs__work__content-right__text {
+    font-size: 10px;
+    line-height: 11px;
+  }
+  .card-tab .card-tabs__work__content-right__link {
+    font-size: 12px;
+    line-height: 13px;
+  }
+  .card-tab .card-tabs__work__content-title {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .card-tabs__work__content-text {
+    margin: 0;
+  }
+  .card-tab .card-tabs__work__content-textImg {
+    margin-bottom: 8px;
+  }
+  .card-tab .card-tabs__work__content-img {
+    width: 54px;
+    height: 52px;
   }
 }
 @media (max-width: 330px) {
