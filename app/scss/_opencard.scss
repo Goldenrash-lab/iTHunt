@@ -164,6 +164,8 @@
       background-color: inherit;
       position: relative;
       margin-right: 50px;
+      color: #000;
+      white-space: nowrap;
       transition: all 0.3s;
       cursor: pointer;
       &::after {
